@@ -1,0 +1,40 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build and cache folders
+/.next/
+/out/
+/build/
+
+# Local Environment Variables
+# Do not commit these files to your repository!
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test reports and coverage
+/coverage
+.nyc_output
+
+# Editor and IDE directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files and miscellaneous
+*.pem
+*.tsbuildinfo
